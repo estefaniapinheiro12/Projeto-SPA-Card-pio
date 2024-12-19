@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <title>Cardápio Restaurante</title>
+</head>
+<body>
+    <nav class="l-nav">
+        <ul class="nav__list">
+            <li><a href="#" id="link-principais" class="nav__link">Principais</a></li>
+            <li><a href="#" id="link-sobremesas" class="nav__link">Sobremesas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="principais" class="c-principais">
+            <h2>Pratos Principais</h2>
+            <div id="lista-principais"></div>
+        </section>
+        <section id="sobremesas" class="c-sobremesas">
+            <h2>Sobremesas</h2>
+            <div id="lista-sobremesas"></div>
+        </section>
+    </main>
+
+    <footer class="rodape" id="rodape">Valor Total da Comanda: <span id="total-comanda">R$ 0,00</span></footer>
+    
+    <script src="src/index.js" type="module"></script>
+</body>
+</html>
